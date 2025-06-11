@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 60px;
 }
 nav ul{
     list-style: none;
@@ -76,57 +77,61 @@ nav ul li a{
 
 .btndownload {
     padding: 0.75rem 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    width: 200px;
+    font-size: 17px;
     border-radius: 5px;
     border: 2px solid transparent;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.btndownload {
-    background-color: white;
-    color: #D60066;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: -webkit-linear-gradient(0.5deg, #ec87bb, #f52d92);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .btnfeatures {
     background-color: transparent;
     color: white;
     border: 2px solid white;
-}
-
-.btnfeatures:hover {
-    background-color: white;
-    color: #2E1A47;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .right-section {
     width: 50%;
-    position: relative;
     overflow: hidden;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 
 .background-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
     opacity: 0.5;
     top: 0;
     left: 0;
 }
 
 .phone-mockup {
-    position: relative;
-    width: 0;
+    margin-bottom: auto; 
     z-index: 1;
-    margin: auto;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    margin-top: -100%;
 }
+.button-download{
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 .container-pc{
     background-color: #f1f2f7;
@@ -144,14 +149,15 @@ nav ul li a{
 
 .pc{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10%;
     align-items: center;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 .pc img {
-    width: 50%;
+    width: 25%;
     height: auto;
     max-width: 600px;
     border-radius: 10px;
@@ -193,7 +199,7 @@ nav ul li a{
 .pricing-header p {
     font-size: 0.9rem;
     color: #ccc;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -297,11 +303,12 @@ nav ul li a{
 footer{
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer h4{
+    color: #606060;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 }
