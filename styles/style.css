@@ -105,7 +105,7 @@ nav ul li a{
 .right-section {
     width: 50%;
     overflow: hidden;
-    background-color: black;
+    background-color: #2e2550;
     display: flex;
     align-items: center;
     justify-content: center;
